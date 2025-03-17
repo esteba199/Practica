@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrowave Game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #1a1a2e, #16213e, #0f3460);
+            color: #ff0080;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            overflow: hidden;
+        }
+        .container {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .title {
+            font-size: 3rem;
+            text-shadow: 0 0 10px #ff0080, 0 0 20px #ff00ff;
+        }
+        .neon-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            border: 2px solid #ff0080;
+            background: none;
+            color: #ff0080;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.3s;
+            box-shadow: 0 0 10px #ff0080;
+        }
+        .neon-button:hover {
+            background: #ff0080;
+            color: #0f3460;
+            box-shadow: 0 0 20px #ff00ff;
+        }
+        .grid-lines {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50vh;
+            background: url('https://i.imgur.com/JHh2xNi.png');
+            background-size: cover;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">RETROWAVE GAME</h1>
+        <button class="neon-button">JUGAR AHORA</button>
+        <div class="grid-lines"></div>
+    </div>
+</body>
+</html>
