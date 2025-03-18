@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="lading.css">
     <title>Zona Gamer - Landing Page</title>
 </head>
-<body>
+<body>    
+    <button class="floating-buy">🛒 Comprar ahora</button>
     <header>
         <div class="logo">
             <img src="logo.jpg" alt="Zona Gamer Logo">
@@ -22,12 +23,47 @@
         </nav>
     </header>
 
+    <section class="register-section">
+        <div class="register-container">
+            <h2>Únete a Zona Gamer</h2>
+            <p>Crea tu cuenta y accede a contenido exclusivo</p>
+            <form class="register-form">
+                <input type="text" placeholder="Nombre de usuario" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="password" placeholder="Confirmar contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+            <p>¿Ya tienes cuenta? <a href="#">Inicia sesión</a></p>
+        </div>
+    </section>
+    
     <section class="intro">
         <div class="intro-overlay">
             <h1>Bienvenido a la Zona Gamer</h1>
             <p>Descubre los juegos más épicos con nuestra galería interactiva. Explora diferentes categorías y sumérgete en la mejor experiencia gamer.</p>
         </div>
     </section>
+
+<section id="tendencias" class="container">
+    <h2> Juegos en Tendencia</h2>
+    <div class="trends-gallery">
+        <div class="trend-card">
+            <img src="gaming.png" alt="Juego en Tendencia 1">
+            <div class="trend-content">
+                <h3>Cyber Battle 2077</h3>
+                <p>El shooter más futurista del año.</p>
+            </div>
+        </div>
+        <div class="trend-card">
+            <img src="gta6.jpg" alt="Juego en Tendencia 2">
+            <div class="trend-content">
+                <h3>Fantasy Realms</h3>
+                <p>Explora un mundo mágico sin límites.</p>
+            </div>
+        </div>
+    </div>
+</section>
     
     <section id="accion" class="container">
         <h2>Juegos de Acción</h2>
@@ -127,3 +163,22 @@
     </section>
 </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const buyButton = document.querySelector(".floating-buy");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 500) { // Muestra el botón después de hacer scroll
+            buyButton.classList.add("show-buy");
+        } else {
+            buyButton.classList.remove("show-buy");
+        }
+    });
+
+    buyButton.addEventListener("click", function() {
+        alert("🛒 ¡Agregado al carrito! Completa tu compra en la tienda.");
+    });
+});
+
+</script>
