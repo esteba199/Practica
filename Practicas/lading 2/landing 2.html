@@ -14,10 +14,11 @@
         </div>
         <nav>
             <ul>
+                <li><a href="#tendencias">Tendencias</a></li>
                 <li><a href="#accion">Acción</a></li>
                 <li><a href="#aventura">Aventura</a></li>
                 <li><a href="#rpg">RPG</a></li>
-                <li><a href="#deportes">Estrategia</a></li>
+                <li><a href="#estrategia">Estrategia</a></li>
                 <li><a href="#simulacion">Simulación</a></li>
             </ul>
         </nav>
@@ -38,147 +39,559 @@
         </div>
     </section>
     
-    <section class="intro">
+    <section class="intro" style="display: none;">
         <div class="intro-overlay">
             <h1>Bienvenido a la Zona Gamer</h1>
             <p>Descubre los juegos más épicos con nuestra galería interactiva. Explora diferentes categorías y sumérgete en la mejor experiencia gamer.</p>
         </div>
     </section>
-
-<section id="tendencias" class="container">
-    <h2> Juegos en Tendencia</h2>
-    <div class="trends-gallery">
-        <div class="trend-card">
-            <img src="gaming.png" alt="Juego en Tendencia 1">
-            <div class="trend-content">
-                <h3>Cyber Battle 2077</h3>
-                <p>El shooter más futurista del año.</p>
-            </div>
-        </div>
-        <div class="trend-card">
-            <img src="gta6.jpg" alt="Juego en Tendencia 2">
-            <div class="trend-content">
-                <h3>Fantasy Realms</h3>
-                <p>Explora un mundo mágico sin límites.</p>
-            </div>
-        </div>
-    </div>
-</section>
     
+    <section id="tendencias" class="container" style="display: none;">
+        <h2> Juegos en Tendencia</h2>
+        <div class="trends-gallery">
+            <div class="trend-card" data-name="Cyber Battle 2077" data-price="59.99">
+                <img src="gaming.png" alt="Juego en Tendencia 1">
+                <div class="trend-content">
+                    <h3>Cyber Battle 2077</h3>
+                    <p class="price">Precio: $59.99</p> <!-- Precio añadido aquí -->
+                    <p>El shooter más futurista del año.</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="trend-card" data-name="Fantasy Realms" data-price="49.99">
+                <img src="gta6.jpg" alt="Juego en Tendencia 2">
+                <div class="trend-content">
+                    <h3>Fantasy Realms</h3>
+                    <p class="price">Precio: $49.99</p> 
+                    <p>Explora un mundo mágico sin límites.</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="trend-card" data-name="Forza Horizon 5" data-price="59.99">
+                <img src="sdsda.jpg" alt="Juego en Tendencia 3">
+                <div class="trend-content">
+                    <h3>Forza Horizon 5</h3>
+                    <p class="price">Precio: $59.99</p> 
+                    <p>Compite en carreras de alta velocidad.</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="trend-card" data-name="Terroro" data-price="39.99">
+                <img src="Terror.jpg" alt="Juego en Tendencia 4">
+                <div class="trend-content">
+                    <h3>Terroro</h3>
+                    <p class="price">Precio: $39.99</p> 
+                    <p>Un survival horror que pondrá a prueba tu valentía.</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="trend-card" data-name="Legends of Eldoria" data-price="54.99">
+                <img src="QL80_.jpg" alt="Juego en Tendencia 5">
+                <div class="trend-content">
+                    <h3>Legends of Eldoria</h3>
+                    <p class="price">Precio: $54.99</p> 
+                    <p>Una épica aventura RPG con batallas estratégicas.</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+      
     <section id="accion" class="container">
         <h2>Juegos de Acción</h2>
         <div class="game-gallery">
-            <div class="card">
+            <div class="card" data-name="Dragones 5" data-price="39.99">
                 <img src="warrior-7631678_1280.jpg" alt="Dragones 5">
                 <div class="card-content">
                     <h3 class="title">Dragones 5</h3>
+                    <p class="price">Precio: $39.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-name="Soldaditos PS5" data-price="49.99">
                 <img src="soldier-7569040_1280.jpg" alt="Soldaditos PS5">
                 <div class="card-content">
                     <h3 class="title">Soldaditos PS5</h3>
+                    <p class="price">Precio: $49.99</p> 
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Shadow Ninja" data-price="44.99">
+                <img src="NinjaReborn.jpg" alt="Shadow Ninja">
+                <div class="card-content">
+                    <h3 class="title">Shadow Ninja</h3>
+                    <p class="price">Precio: $44.99</p> 
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Mecha Wars" data-price="59.99">
+                <img src="maxresdefault.jpg" alt="Mecha Wars">
+                <div class="card-content">
+                    <h3 class="title">Mecha Wars</h3>
+                    <p class="price">Precio: $59.99</p> 
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Horde Zombie Outbreak" data-price="34.99">
+                <img src="capsule_616x353.jpg" alt="Zombie Outbreak">
+                <div class="card-content">
+                    <h3 class="title">Horde Zombie Outbreak</h3>
+                    <p class="price">Precio: $34.99</p> 
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
         </div>
     </section>
-
+       
     <section id="aventura" class="container">
         <h2>Juegos de Aventura</h2>
         <div class="game-gallery">
-            <div class="card">
+            <div class="card" data-name="GTA 6" data-price="59.99">
                 <img src="gta6.jpg" alt="GTA 6">
                 <div class="card-content">
                     <h3 class="title">GTA 6</h3>
+                    <p class="price">Precio: $59.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-name="Elden Ring" data-price="49.99">
                 <img src="elden.jpg" alt="Elden Ring">
                 <div class="card-content">
                     <h3 class="title">Elden Ring</h3>
+                    <p class="price">Precio: $49.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="The Legend of Zelda: Breath of the Wild" data-price="59.99">
+                <img src="BOTW.jpg" alt="The Legend of Zelda: Breath of the Wild">
+                <div class="card-content">
+                    <h3 class="title">The Legend of Zelda: Breath of the Wild</h3>
+                    <p class="price">Precio: $59.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Red Dead Redemption 2" data-price="39.99">
+                <img src="RDR2.jpg" alt="Red Dead Redemption 2">
+                <div class="card-content">
+                    <h3 class="title">Red Dead Redemption 2</h3>
+                    <p class="price">Precio: $39.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Uncharted 4: A Thief's End" data-price="54.99">
+                <img src="cover.jpg" alt="Uncharted 4: A Thief's End">
+                <div class="card-content">
+                    <h3 class="title">Uncharted 4: A Thief's End</h3>
+                    <p class="price">Precio: $54.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
         </div>
     </section>
-
+   
     <section id="rpg" class="container">
         <h2>Juegos RPG</h2>
         <div class="game-gallery">
-            <div class="card">
-                <img src="descarga.jpg" alt="Juego RPG 1">
+            <div class="card" data-name="Final Fantasy XVI" data-price="59.99">
+                <img src="descarga.jpg" alt="Final Fantasy XVI">
                 <div class="card-content">
-                    <h3 class="title">Juego RPG 1</h3>
+                    <h3 class="title">Final Fantasy XVI</h3>
+                    <p class="price">Precio: $59.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="card">
-                <img src="gaming.png" alt="Juego RPG 2">
+            <div class="card" data-name="The Witcher 3" data-price="49.99">
+                <img src="gaming.png" alt="The Witcher 3">
                 <div class="card-content">
-                    <h3 class="title">Juego RPG 2</h3>
+                    <h3 class="title">The Witcher 3: Wild Hunt</h3>
+                    <p class="price">Precio: $49.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="The Elder Scrolls V: Skyrim" data-price="39.99">
+                <img src="steameurope.jpg" alt="The Elder Scrolls V: Skyrim">
+                <div class="card-content">
+                    <h3 class="title">The Elder Scrolls V: Skyrim</h3>
+                    <p class="price">Precio: $39.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Persona 5 Royal" data-price="44.99">
+                <img src="dd-18.jpg" alt="Persona 5 Royal">
+                <div class="card-content">
+                    <h3 class="title">Persona 5 Royal</h3>
+                    <p class="price">Precio: $44.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Dark Souls III" data-price="34.99">
+                <img src="dark.avif" alt="Dark Souls III">
+                <div class="card-content">
+                    <h3 class="title">Dark Souls III</h3>
+                    <p class="price">Precio: $34.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="deportes" class="container">
+    
+    <section id="estrategia" class="container">
         <h2>Juegos de Estrategia</h2>
         <div class="game-gallery">
-            <div class="card">
-                <img src="SG.jpg" alt="Juego de Estrategia 1">
+            <div class="card" data-name="Age of Empires IV" data-price="59.99">
+                <img src="SG.jpg" alt="Age of Empires IV">
                 <div class="card-content">
-                    <h3 class="title">Juego Estrategia</h3>
+                    <h3 class="title">Age of Empires IV</h3>
+                    <p class="price">Precio: $59.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="card">
-                <img src="big.png" alt="Juego de Estrategia 2">
+            <div class="card" data-name="Civilization VI" data-price="49.99">
+                <img src="big.png" alt="Civilization VI">
                 <div class="card-content">
-                    <h3 class="title">Juego Estrategia</h3>
+                    <h3 class="title">Civilization VI</h3>
+                    <p class="price">Precio: $49.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Total War: Warhammer III" data-price="59.99">
+                <img src="header.jpg" alt="Total War: Warhammer III">
+                <div class="card-content">
+                    <h3 class="title">Total War: Warhammer III</h3>
+                    <p class="price">Precio: $59.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="StarCraft II" data-price="39.99">
+                <img src="starcraft.jpg" alt="StarCraft II">
+                <div class="card-content">
+                    <h3 class="title">StarCraft II</h3>
+                    <p class="price">Precio: $39.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="XCOM 2" data-price="34.99">
+                <img src="Xzv6.webp" alt="XCOM 2">
+                <div class="card-content">
+                    <h3 class="title">XCOM 2</h3>
+                    <p class="price">Precio: $34.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section id="simulacion" class="container">
         <h2>Juegos de Simulación</h2>
         <div class="game-gallery">
-            <div class="card">
-                <img src="images.jpg" alt="Juego de Simulación 1">
+            <div class="card" data-name="The Sims 4" data-price="49.99">
+                <img src="images.jpg" alt="The Sims 4">
                 <div class="card-content">
-                    <h3 class="title">Juego de Simulación 1</h3>
+                    <h3 class="title">The Sims 4</h3>
+                    <p class="price">Precio: $49.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
-            <div class="card">
-                <img src="party crashers balloons vr game.jpeg" alt="Juego de Simulación 2">
+            <div class="card" data-name="Flight Simulator" data-price="59.99">
+                <img src="party crashers balloons vr game.jpeg" alt="Flight Simulator">
                 <div class="card-content">
-                    <h3 class="title">Juego de Simulación 2</h3>
+                    <h3 class="title">Flight Simulator</h3>
+                    <p class="price">Precio: $59.99</p> 
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Farming Simulator 22" data-price="39.99">
+                <img src="apps.63069.jpg" alt="Farming Simulator 22">
+                <div class="card-content">
+                    <h3 class="title">Farming Simulator 22</h3>
+                    <p class="price">Precio: $39.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Euro Truck Simulator 2" data-price="34.99">
+                <img src="euro-truck.jpg" alt="Euro Truck Simulator 2">
+                <div class="card-content">
+                    <h3 class="title">Euro Truck Simulator 2</h3>
+                    <p class="price">Precio: $34.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card" data-name="Planet Coaster" data-price="44.99">
+                <img src="planetcoaster.jpg" alt="Planet Coaster">
+                <div class="card-content">
+                    <h3 class="title">Planet Coaster</h3>
+                    <p class="price">Precio: $44.99</p>
+                    <button class="add-to-cart">Añadir al carrito</button>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section class="description">
-        <h2>¿Qué es Zona Gamer?</h2>
-        <p>Zona Gamer es tu espacio ideal para descubrir y explorar los mejores videojuegos. Desde juegos de acción hasta simuladores, aquí encontrarás una amplia variedad de títulos que te mantendrán entretenido.</p>
-        <h3>Convenios</h3>
-        <p>Trabajamos en colaboración con las principales desarrolladoras de videojuegos y plataformas para ofrecerte lo último en la industria del gaming.</p>
-    </section>
-</body>
-</html>
+        <div class="description-container">
+            <h2>¿Qué es <span class="highlight">Zona Gamer</span>?</h2>
+            <p>
+                🎮 Bienvenido a <strong>Zona Gamer</strong>, tu espacio definitivo para descubrir, explorar y sumergirte en el mundo de los videojuegos. 
+                Desde títulos llenos de acción hasta los simuladores más realistas, tenemos una amplia selección para todos los gustos. 
+            </p>
+            <div class="separator"></div> 
+    
+            <h3>🌍 Convenios Exclusivos</h3>
+            <p>
+                Colaboramos con las principales <strong>desarrolladoras de videojuegos</strong> y plataformas del sector, 
+                asegurando que siempre tengas acceso a las últimas novedades, promociones y contenido exclusivo. 
+            </p>
+        </div>
+</section>
+
+         <!-- Modal del carrito de compras -->
+<div id="cart-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="cart-total">$0.00</span></p>
+        <button id="checkout">Finalizar Compra</button>
+    </div>
+</div>
+
+<!-- Pantalla de pago -->
+<div id="checkout-screen" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h2>Confirmar Compra</h2>
+        <p>Revisa los detalles de tu compra antes de proceder al pago.</p>
+        <ul id="checkout-items"></ul>
+        <p>Total a pagar: <span id="checkout-total">$0.00</span></p>
+        <button id="pay">Pagar</button>
+        <button id="cancel-checkout">Cancelar</button>
+        <button id="logout">Cerrar sesión</button>
+    </div>
+</div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    const buyButton = document.querySelector(".floating-buy");
+             document.addEventListener("DOMContentLoaded", function () {
+        const registerForm = document.querySelector(".register-form");
+        const gameSections = document.querySelectorAll("#tendencias, #accion, #aventura, #rpg, #estrategia, #simulacion, .intro");
+        const buyButton = document.querySelector(".floating-buy");
+        const cartModal = document.getElementById("cart-modal");
+        const cartItemsList = document.getElementById("cart-items");
+        const cartTotal = document.getElementById("cart-total");
+        const checkoutButton = document.getElementById("checkout");
+        const closeModal = document.querySelector(".close");
 
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 500) { // Muestra el botón después de hacer scroll
-            buyButton.classList.add("show-buy");
-        } else {
-            buyButton.classList.remove("show-buy");
+        const checkoutScreen = document.getElementById("checkout-screen");
+        const checkoutItemsList = document.getElementById("checkout-items");
+        const checkoutTotal = document.getElementById("checkout-total");
+        const payButton = document.getElementById("pay");
+        const cancelCheckoutButton = document.getElementById("cancel-checkout");
+        const logoutButton = document.getElementById("logout");
+
+        let cart = [];
+
+        // Verificar si el usuario ya está registrado
+        if (localStorage.getItem("registered") === "true") {
+            showContent();
         }
+
+        // Manejar el registro
+        registerForm.addEventListener("submit", function (event) {
+            event.preventDefault(); // Evitar envío del formulario
+
+            alert("¡Registro exitoso! Ahora puedes acceder a la galería de juegos.");
+            localStorage.setItem("registered", "true");
+
+            showContent();
+        });
+
+        // Mostrar contenido después del registro
+        function showContent() {
+            gameSections.forEach(section => section.style.display = "block");
+            buyButton.style.display = "block";
+            document.querySelector(".register-section").style.display = "none";
+        }
+
+        // Añadir juegos al carrito
+        document.querySelectorAll(".add-to-cart").forEach(button => {
+            button.addEventListener("click", function () {
+                const gameCard = this.closest(".card");
+                const gameName = gameCard.querySelector(".title").textContent;
+                const gamePrice = parseFloat(gameCard.getAttribute("data-price"));
+
+                if (!gamePrice) {
+                    alert("Error: Este juego no tiene un precio asignado.");
+                    return;
+                }
+
+                cart.push({ name: gameName, price: gamePrice });
+                updateCart();
+            });
+        });
+
+        // Actualizar el carrito
+        function updateCart() {
+            cartItemsList.innerHTML = "";
+            let total = 0;
+
+            cart.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                cartItemsList.appendChild(li);
+                total += item.price;
+            });
+
+            cartTotal.textContent = `$${total.toFixed(2)}`;
+        }
+
+        // Abrir el modal del carrito
+        buyButton.addEventListener("click", function () {
+            cartModal.style.display = "block";
+        });
+
+        // Cerrar el modal del carrito
+        closeModal.addEventListener("click", function () {
+            cartModal.style.display = "none";
+        });
+
+        // Finalizar compra y mostrar la pantalla de pago
+        checkoutButton.addEventListener("click", function () {
+            if (cart.length > 0) {
+                checkoutItemsList.innerHTML = "";
+                let total = 0;
+
+                cart.forEach(item => {
+                    const li = document.createElement("li");
+                    li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                    checkoutItemsList.appendChild(li);
+                    total += item.price;
+                });
+
+                checkoutTotal.textContent = `$${total.toFixed(2)}`;
+
+                cartModal.style.display = "none";
+                checkoutScreen.style.display = "block";
+            } else {
+                alert("El carrito está vacío. Añade juegos para continuar.");
+            }
+        });
+
+        // Confirmar pago
+        payButton.addEventListener("click", function () {
+            alert("¡Pago realizado con éxito! Gracias por tu compra.");
+            cart = [];
+            updateCart();
+            checkoutScreen.style.display = "none";
+        });
+
+        // Cancelar y volver a la tienda
+        cancelCheckoutButton.addEventListener("click", function () {
+            checkoutScreen.style.display = "none";
+            cartModal.style.display = "block";
+        });
+
+        // Cerrar sesión y volver al registro
+        logoutButton.addEventListener("click", function () {
+            localStorage.removeItem("registered");
+            location.reload();
+        });
     });
 
-    buyButton.addEventListener("click", function() {
-        alert("🛒 ¡Agregado al carrito! Completa tu compra en la tienda.");
+document.addEventListener("DOMContentLoaded", function() {
+    const registerForm = document.querySelector(".register-form");
+    const gameSections = document.querySelectorAll("#tendencias, #accion, #aventura, #rpg, #estrategia, #simulacion");
+
+    registerForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita que el formulario se envíe
+
+        // Simula el registro exitoso
+        alert("¡Registro exitoso! Ahora puedes acceder a la galería de juegos.");
+
+        // Muestra las secciones de la galería
+        gameSections.forEach(section => {
+            section.style.display = "block";
+        });
+
+        // Oculta la sección de registro
+        document.querySelector(".register-section").style.display = "none";
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const buyButton = document.querySelector(".floating-buy");
+    const registerForm = document.querySelector(".register-form");
+    const gameSections = document.querySelectorAll("#tendencias, #accion, #aventura, #rpg, #estrategia, #simulacion");
+
+    // Verifica si el usuario ya está registrado
+    if (localStorage.getItem("registered") === "true") {
+        gameSections.forEach(section => {
+            section.style.display = "block";
+        });
+        buyButton.style.display = "block";
+        document.querySelector(".register-section").style.display = "none";
+    }
+
+    registerForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita que el formulario se envíe
+
+        // Simula el registro exitoso
+        alert("¡Registro exitoso! Ahora puedes acceder a la galería de juegos.");
+
+        // Guarda el estado de registro en localStorage
+        localStorage.setItem("registered", "true");
+
+        // Muestra las secciones de la galería
+        gameSections.forEach(section => {
+            section.style.display = "block";
+        });
+
+        // Muestra el botón de compra
+        buyButton.style.display = "block";
+
+        // Oculta la sección de registro
+        document.querySelector(".register-section").style.display = "none";
+    });
+});
+
+registerForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe
+
+    // Simula el registro exitoso
+    alert("¡Registro exitoso! Ahora puedes acceder a la galería de juegos.");
+
+    // Guarda el estado de registro en localStorage
+    localStorage.setItem("registered", "true");
+
+    // Muestra las secciones de la galería
+    gameSections.forEach(section => {
+        section.style.display = "block";
+    });
+
+    // Muestra el botón de compra
+    buyButton.style.display = "block";
+
+    // Oculta la sección de registro
+    document.querySelector(".register-section").style.display = "none";
+
+    // Muestra un mensaje de bienvenida
+    const welcomeMessage = document.createElement("div");
+    welcomeMessage.textContent = "¡Bienvenido a Zona Gamer!";
+    welcomeMessage.style.position = "fixed";
+    welcomeMessage.style.top = "20px";
+    welcomeMessage.style.left = "50%";
+    welcomeMessage.style.transform = "translateX(-50%)";
+    welcomeMessage.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+    welcomeMessage.style.color = "#ffcc00";
+    welcomeMessage.style.padding = "10px 20px";
+    welcomeMessage.style.borderRadius = "10px";
+    welcomeMessage.style.zIndex = "1000";
+    document.body.appendChild(welcomeMessage);
+
+    // Elimina el mensaje después de 3 segundos
+    setTimeout(() => {
+        welcomeMessage.remove();
+    }, 3000);
+});
+
+
 </script>
+</body>
+</html>

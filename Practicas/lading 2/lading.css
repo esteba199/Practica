@@ -297,6 +297,35 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('gaming-background.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.register-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Ocultar las secciones de la galería inicialmente */
+#tendencias,
+#accion,
+#aventura,
+#rpg,
+#estrategia,
+#simulacion {
+    display: none;
+}
+
 .intro {
     margin-top: 100px;
     padding: 20px;
@@ -394,4 +423,260 @@ nav ul li a:hover {
 .card-content p {
     font-size: 0.9rem; 
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+}
+
+/* SECCIÓN DE DESCRIPCIÓN */
+.description {
+    width: 90%;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.description-container {
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+h2 .highlight {
+    color: #ffcc00;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ffdb4d;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Línea divisoria */
+.separator {
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(90deg, #ffcc00, #ff6b00);
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+/* Estilos del modal del carrito */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Contenedor del modal */
+.modal-content {
+    background: #222;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    color: #e0e0e0;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+/* Estilo del título */
+.modal-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+/* Lista de productos en el carrito */
+.modal-content ul {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Estilo de cada ítem del carrito */
+.modal-content ul li {
+    background: #333;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Estilo del precio */
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    background: rgba(255, 204, 0, 0.2); /* Fondo sutil para resaltar */
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Efecto hover en el precio */
+.price:hover {
+    background: rgba(255, 204, 0, 0.4);
+    transform: scale(1.05);
+}
+
+/* Botón Añadir al Carrito */
+.add-to-cart {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: #222;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 153, 0, 0.3);
+}
+
+/* Efecto hover */
+.add-to-cart:hover {
+    background: linear-gradient(135deg, #ff9900, #ff6600);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(255, 102, 0, 0.4);
+}
+
+/* Efecto clic */
+.add-to-cart:active {
+    transform: scale(0.95);
+}
+
+
+/* Botón de cierre del modal */
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ff5555;
+}
+
+.modal-content .close:hover {
+    color: #ff2222;
+}
+
+/* Total a pagar */
+.modal-content p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Botones principales */
+.modal-content button {
+    background: #ffcc00;
+    color: #222;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modal-content button:hover {
+    background: #ffd700;
+}
+
+/* Botón de finalizar compra */
+#checkout {
+    background: #ffcc00;
+}
+
+#checkout:hover {
+    background: #ffd700;
+}
+
+/* Botón de cancelar compra */
+#cancel-checkout {
+    background: #ff5555;
+}
+
+#cancel-checkout:hover {
+    background: #ff2222;
+}
+
+/* Botón de cerrar sesión */
+#logout {
+    background: #444;
+    color: #fff;
+}
+
+#logout:hover {
+    background: #666;
+}
+
+/* Estilos específicos del carrito */
+#cart-modal .modal-content {
+    width: 380px;
+}
+
+/* Estilos específicos de la pantalla de pago */
+#checkout-screen .modal-content {
+    width: 400px;
 }
