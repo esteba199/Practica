@@ -1,0 +1,165 @@
+{
+    "videojuegos": [
+      {
+        "nombre": "Cyber Battle 2077",
+        "descripcion": "El shooter más futurista del año.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Fantasy Realms",
+        "descripcion": "Explora un mundo mágico sin límites.",
+        "precio": 49.99
+      },
+      {
+        "nombre": "Forza Horizon 5",
+        "descripcion": "Compite en carreras de alta velocidad.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Terroro",
+        "descripcion": "Un survival horror que pondrá a prueba tu valentía.",
+        "precio": 39.99
+      },
+      {
+        "nombre": "Legends of Eldoria",
+        "descripcion": "Una épica aventura RPG con batallas estratégicas.",
+        "precio": 54.99
+      }
+    ],
+    "juegos_accion": [
+      {
+        "nombre": "Dragones 5",
+        "descripcion": "Una aventura épica con dragones y combates intensos.",
+        "precio": 39.99
+      },
+      {
+        "nombre": "Soldaditos PS5",
+        "descripcion": "Batallas estratégicas con soldados en la nueva generación de consolas.",
+        "precio": 49.99
+      },
+      {
+        "nombre": "Shadow Ninja",
+        "descripcion": "Conviértete en un ninja sigiloso y domina el arte del combate en las sombras.",
+        "precio": 44.99
+      },
+      {
+        "nombre": "Mecha Wars",
+        "descripcion": "Pilota robots gigantes en una guerra futurista sin precedentes.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Horde Zombie Outbreak",
+        "descripcion": "Sobrevive a hordas interminables de zombis en un apocalipsis terrorífico.",
+        "precio": 34.99
+      }
+    ],
+    "juegos_aventura": [
+      {
+        "nombre": "GTA 6",
+        "descripcion": "Explora una ciudad abierta llena de acción, misiones y caos.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Elden Ring",
+        "descripcion": "Sumérgete en un mundo de fantasía oscura con combates desafiantes.",
+        "precio": 49.99
+      },
+      {
+        "nombre": "The Legend of Zelda: Breath of the Wild",
+        "descripcion": "Explora Hyrule con total libertad en una épica aventura de mundo abierto.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Red Dead Redemption 2",
+        "descripcion": "Vive la vida de un forajido en el salvaje oeste con una historia increíble.",
+        "precio": 39.99
+      },
+      {
+        "nombre": "Uncharted 4: A Thief's End",
+        "descripcion": "Únete a Nathan Drake en su última y más emocionante aventura.",
+        "precio": 54.99
+      }
+    ],
+    "juegos_rpg": [
+      {
+        "nombre": "Final Fantasy XVI",
+        "descripcion": "Un épico RPG de fantasía con intensas batallas y una historia impactante.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "The Witcher 3: Wild Hunt",
+        "descripcion": "Conviértete en Geralt de Rivia y embarcate en una aventura llena de monstruos y magia.",
+        "precio": 49.99
+      },
+      {
+        "nombre": "The Elder Scrolls V: Skyrim",
+        "descripcion": "Explora un vasto mundo abierto repleto de dragones y misiones épicas.",
+        "precio": 39.99
+      },
+      {
+        "nombre": "Persona 5 Royal",
+        "descripcion": "Vive la doble vida de estudiante y ladrón de corazones en este aclamado RPG.",
+        "precio": 44.99
+      },
+      {
+        "nombre": "Dark Souls III",
+        "descripcion": "Un desafiante RPG de acción con intensos combates y una ambientación oscura.",
+        "precio": 34.99
+      }
+    ],
+    "juegos_estrategia": [
+      {
+        "nombre": "Age of Empires IV",
+        "descripcion": "Construye imperios y domina la historia en este clásico de estrategia.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Civilization VI",
+        "descripcion": "Conduce tu civilización desde la antigüedad hasta la era moderna.",
+        "precio": 49.99
+      },
+      {
+        "nombre": "Total War: Warhammer III",
+        "descripcion": "Lidera ejércitos épicos en el universo de Warhammer en esta estrategia por turnos.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "StarCraft II",
+        "descripcion": "Domina la estrategia en tiempo real con tres razas únicas en guerra.",
+        "precio": 39.99
+      },
+      {
+        "nombre": "XCOM 2",
+        "descripcion": "Lidera la resistencia contra una invasión alienígena en este juego táctico por turnos.",
+        "precio": 34.99
+      }
+    ],
+    "juegos_simulacion": [
+      {
+        "nombre": "The Sims 4",
+        "descripcion": "Crea y controla personas en un mundo virtual lleno de posibilidades.",
+        "precio": 49.99
+      },
+      {
+        "nombre": "Flight Simulator",
+        "descripcion": "Experimenta el vuelo más realista con simulación avanzada.",
+        "precio": 59.99
+      },
+      {
+        "nombre": "Farming Simulator 22",
+        "descripcion": "Administra tu propia granja y cultiva diferentes tipos de cultivos.",
+        "precio": 39.99
+      },
+      {
+        "nombre": "Euro Truck Simulator 2",
+        "descripcion": "Conduce camiones a través de Europa y administra tu empresa de transporte.",
+        "precio": 34.99
+      },
+      {
+        "nombre": "Planet Coaster",
+        "descripcion": "Diseña y gestiona tu propio parque de atracciones.",
+        "precio": 44.99
+      }
+    ]
+  }
+  

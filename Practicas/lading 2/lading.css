@@ -680,3 +680,80 @@ p {
 #checkout-screen .modal-content {
     width: 400px;
 }
+
+/* Botón de Cerrar Sesión */
+.logout-button {
+    background: #d9534f;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+}
+
+.logout-button:hover {
+    background: #c9302c;
+    transform: scale(1.05);
+}
+
+.logout-button:active {
+    transform: scale(0.95);
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .trends-gallery {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .trend-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .floating-buy {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+.trends-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        position: relative;
+    }
+}
